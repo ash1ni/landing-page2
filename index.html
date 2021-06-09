@@ -5,6 +5,8 @@
 	<title>Product-Landing-Page</title>
 
 </head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 <style>
    #header-img{
    	width: 100px;
@@ -28,73 +30,95 @@
     width: 100%;
   }
 }
+
+#nav-bar{
+	 position: fixed;
+	 top: 0;
+	 overflow: hidden;
+     background-color: #d3d9eb;
+     position: fixed; /* Set the navbar to fixed position */
+     top: 0; /* Position the navbar at the top of the page */
+     width: 100%; /* Full width */
+     color:#d3d9eb ;
+	
+	
+
+}
+.nav-link{
+	margin: 10px;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-family: 'Ubuntu', sans-serif; ;
+
+}
 .flex-container {
   display: flex;
+  justify-content: center;
   width: auto;
-}
-#nav-bar{
-	
-	position: fixed;
-	top: 0;
-	
+ 
+  }
+  #header-img{
+  	padding-top: 10px;
+  }
 
-}
 body{
 	font-family: sans-serif;
-}
 
+	background-color:#011140 ;
+}
+p{
+	color:#d3d9eb ;
+}
 </style>
 
 
 <body>
 	<header id="header" >
+		
 		<img id="header-img" src="https://popsql.com/static/external-logos/freecodecamp.png">
-		<nav id="nav-bar" >
+		<center><nav id="nav-bar" >
 			
-			<center>
+			
 				<a class="nav-link" href="#info">Information</a> |
 				<a  class="nav-link" href="#html">HTML</a> |
             <a class="nav-link" href="#css" >CSS</a> |
            <a class="nav-link" href="#js" >JavaScript</a> 
-           </center>
+          
            
-           
-		</nav>
+          
+		</nav></center>
 
 
 		</header>
-		<section id="info">
+		<center><section id="info">
 			<form id="form" action="/https://www.freecodecamp.com/email-submit">
-				For more queries:
+				<p>For more queries:</p>
 				<input id="email" type="email" name="email" placeholder="enter your email">
 				<input id="submit" type="submit" name="">
 			</form>
 			<p>This is Quincy Larson talking about idea of starting open source learning platform "freecodecamp"</p>
 			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/b_K0zM0EEnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-		</section>
-		<section id="html">
+		</section></center>
+		<center><section id="html">
 			<p>This is the test video of basic course of HTML5 offered by freecodecamp</p>
 			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</section>
-		<section id="css">
+		</section></center>
+		<center><section id="css">
 			<p>This is the test video of CSS3 course offered by freecodecamp</p>
 			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-		</section>
-		<section id="js">
+		</section></center>
+		<center><section id="js">
 			<p>This is the test video of JavaScript course offered by freecodecamp</p>
 			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PkZNo7MFNFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</section>
+		</section></center><br>
 
 		<div class="flex-container">
-       <div><img src="https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png"></div>
-       <div>
-       	<img src="https://i.ytimg.com/vi/gz0EkMYOrD4/maxresdefault.jpg">
-       </div>
-       <div>
-       	<img src="https://i1.wp.com/edutechpost.com/wp-content/uploads/2017/07/freecodecamp-learning-hours-300x169.jpg?resize=320%2C180">
-       </div>
+       <div><center><img src=""></center></div><br>
+       <div><center><p>These are the various courses offered by freecodecamp</p></center><img src="https://www.i-programmer.info/images/stories/News/2016/April/B/freecodecamp1.jpg"></div>
+      
       </div>
 		
 	
